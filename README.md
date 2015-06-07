@@ -1,5 +1,5 @@
-# ITGC-Wasteland-Altis
-===================
+## ITGC-Wasteland-Altis ##
+
 A3 Wasteland Altis with extDB2
 
 ===================
@@ -8,9 +8,14 @@ ArmA 3 Wasteland is a harsh survival sandbox mission where 2 teams and independe
 
 *Team Wasteland* collaborators:
 
-       GoT - JoSchaap
+       
+```
+#!python
+
+GoT - JoSchaap
        TPG - AgentRev
            - MercyfulFate
        KoS - His_Shadow
        KoS - Bewilderbeest
        404 - Del1te
+```
