@@ -1,4 +1,4 @@
-## ITGC-Wasteland-Altis ##
+# ITGC-Wasteland-Altis #
 ***
 
 A3 Wasteland Altis with extDB2 for ITGC servers
