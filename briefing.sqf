@@ -389,7 +389,7 @@ player createDiaryRecord ["infos",
 [
 "Hints and Tips",
 "
-<br/><font size='18'>TOP Wasteland</font>
+<br/><font size='18'>ITGC Wasteland</font>
 <br/>
 <br/>
 <br/>* Loot spawns in vehicles or purchased from the Gun Store.
