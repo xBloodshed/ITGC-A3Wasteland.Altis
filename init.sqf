@@ -32,6 +32,8 @@ A3W_scriptThreads = [];
 [] execVM "storeConfig.sqf"; // Separated as its now v large
 [] execVM "briefing.sqf";
 
+if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; //statusBar
+
 if (!isDedicated) then
 {
 	[] spawn
