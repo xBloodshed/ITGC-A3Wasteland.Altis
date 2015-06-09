@@ -79,4 +79,5 @@ if (isServer) then
 [] execVM "addons\EtV\init.sqf";
 [] execVM "addons\outlw_magRepack\MagRepack_init_sv.sqf";
 [] execVM "addons\APOC_Airdrop_Assistance\init.sqf"; //airdrops
+[] execVM "addons\scripts\billboards.sqf"; //billboards
 if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; //statusBar
