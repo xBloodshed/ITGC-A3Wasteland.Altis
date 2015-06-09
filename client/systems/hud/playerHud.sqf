@@ -111,11 +111,11 @@ while {true} do
 	_hudServerTextbox = _ui displayCtrl hud_server_idc;
 	
 	_serverString = format ["<t color='#A0FFFFFF'>ITGC #%1 Wasteland %2 : Server</t>", call A3W_extDB_ServerID, worldName];
-	_serverString = format ["%1<br/><t color='#A0FFFFFF'>ts.itgcommunity.com.com : TeamSpeak<br/>ITGCOMMUNITY.COM : Website/Stats/Forum</t>",_serverString];
+	_serverString = format ["%1<br/><t color='#A0FFFFFF'>ts.itgcommunity.com : TeamSpeak<br/>ITGCOMMUNITY.COM : Website/Stats/Forum</t>",_serverString];
 	_hudServerTextbox ctrlSetStructuredText parseText _serverString;
 	_hudServerTextbox ctrlCommit 0;
 
-	//Calculate Health 0 - 100
+	/*/Calculate Health 0 - 100
 	_health = ((1 - damage player) * 100) max 0;
 	_health = if (_health > 1) then { floor _health } else { ceil _health };
 
@@ -162,13 +162,13 @@ while {true} do
 	{
 		_str = _str + format ["%1%2", if (_forEachIndex > 0) then { "<br/>" } else { "" }, _x];
 	} forEach _strArray;
-
+*/
 	_vitals ctrlShow alive player;
 	_vitals ctrlSetStructuredText parseText _str;
 	_vitals ctrlCommit 0;
 
 	_tempString = "";
-	_yOffset = 0.26;
+	_yOffset = 0.06;
 
 	if (isStreamFriendlyUIEnabled) then
 	{
