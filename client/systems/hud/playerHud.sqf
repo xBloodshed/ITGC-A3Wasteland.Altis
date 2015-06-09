@@ -168,7 +168,7 @@ while {true} do
 	_vitals ctrlCommit 0;
 
 	_tempString = "";
-	_yOffset = 0.06;
+	_yOffset = 0.26;
 
 	if (isStreamFriendlyUIEnabled) then
 	{
@@ -177,7 +177,7 @@ while {true} do
 
 		_hudVehicle ctrlSetStructuredText parseText _tempString;
 
-		_x = safeZoneX + (safeZoneW * (1 - (0.42 / SafeZoneW)));
+		_x = safeZoneX + (safeZoneW * (1 - (0.12 / SafeZoneW)));
 		_y = safeZoneY + (safeZoneH * (1 - (_yOffset / SafeZoneH)));
 		_hudVehicle ctrlSetPosition [_x, _y, 0.4, 0.65];
 	}
