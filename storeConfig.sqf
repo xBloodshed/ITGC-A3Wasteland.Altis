@@ -73,7 +73,7 @@ rifleArray = compileFinal str
 	["Mk-I EMR Rifle (Sand) [DLC]", "srifle_DMR_03_tan_F", 1550],
 	["Mk-I EMR Rifle (Woodland) [DLC]", "srifle_DMR_03_woodland_F", 1550],
 	["MAR-10 Rifle [DLC]", "srifle_DMR_02_F", 4500],
-	["MAR-10 Rifle (Camo) [DLC]", "srifle_DMR_02_camo_F", 45000],
+	["MAR-10 Rifle (Camo) [DLC]", "srifle_DMR_02_camo_F", 4500],
 	["MAR-10 Rifle (Sand) [DLC]", "srifle_DMR_02_sniper_F", 4500],
 	["Cyrus Rifle [DLC]", "srifle_DMR_05_blk_F", 4000],
 	["Cyrus Rifle (Hex) [DLC]", "srifle_DMR_05_hex_F", 4000],
