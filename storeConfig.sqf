@@ -59,34 +59,34 @@ rifleArray = compileFinal str
 	["MX 3GL Rifle (Black)", "arifle_MX_GL_Black_F", 275],
 
 	// Markman Rifles
-	["MXM Rifle", "arifle_MXM_F", 300],
-	["MXM Rifle (Black)", "arifle_MXM_Black_F", 325],
-	["DMR Rifle", "srifle_DMR_01_F", 375],
-	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
+	["MXM Rifle", "arifle_MXM_F", 500],
+	["MXM Rifle (Black)", "arifle_MXM_Black_F", 500],
+	["DMR Rifle", "srifle_DMR_01_F", 750],
+	["Mk18 ABR Rifle", "srifle_EBR_F", 1500],
 
 	// DLC
 	["Mk14 Rifle (Camo) [DLC]", "srifle_DMR_06_camo_F", 450],
 	["Mk14 Rifle (Olive) [DLC]", "srifle_DMR_06_olive_F", 450],
-	["Mk-I EMR Rifle [DLC]", "srifle_DMR_03_F", 500],
-	["Mk-I EMR Rifle (Camo) [DLC]", "srifle_DMR_03_multicam_F", 550],
-	["Mk-I EMR Rifle (Khaki) [DLC]", "srifle_DMR_03_khaki_F", 550],
-	["Mk-I EMR Rifle (Sand) [DLC]", "srifle_DMR_03_tan_F", 550],
-	["Mk-I EMR Rifle (Woodland) [DLC]", "srifle_DMR_03_woodland_F", 550],
-	["MAR-10 Rifle [DLC]", "srifle_DMR_02_F", 750],
-	["MAR-10 Rifle (Camo) [DLC]", "srifle_DMR_02_camo_F", 800],
-	["MAR-10 Rifle (Sand) [DLC]", "srifle_DMR_02_sniper_F", 800],
-	["Cyrus Rifle [DLC]", "srifle_DMR_05_blk_F", 750],
-	["Cyrus Rifle (Hex) [DLC]", "srifle_DMR_05_hex_F", 800],
-	["Cyrus Rifle (Tan) [DLC]", "srifle_DMR_05_tan_f", 800],
+	["Mk-I EMR Rifle [DLC]", "srifle_DMR_03_F", 1500],
+	["Mk-I EMR Rifle (Camo) [DLC]", "srifle_DMR_03_multicam_F", 1550],
+	["Mk-I EMR Rifle (Khaki) [DLC]", "srifle_DMR_03_khaki_F", 1550],
+	["Mk-I EMR Rifle (Sand) [DLC]", "srifle_DMR_03_tan_F", 1550],
+	["Mk-I EMR Rifle (Woodland) [DLC]", "srifle_DMR_03_woodland_F", 1550],
+	["MAR-10 Rifle [DLC]", "srifle_DMR_02_F", 4500],
+	["MAR-10 Rifle (Camo) [DLC]", "srifle_DMR_02_camo_F", 45000],
+	["MAR-10 Rifle (Sand) [DLC]", "srifle_DMR_02_sniper_F", 4500],
+	["Cyrus Rifle [DLC]", "srifle_DMR_05_blk_F", 4000],
+	["Cyrus Rifle (Hex) [DLC]", "srifle_DMR_05_hex_F", 4000],
+	["Cyrus Rifle (Tan) [DLC]", "srifle_DMR_05_tan_f", 4000],
 
 	// Sniper Rifles
-	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 1000],
-	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 1200],
-	["GM6 Lynx Sniper", "srifle_GM6_LRPS_F", 1250],
-	["GM6 Lynx Sniper (Camo)", "srifle_GM6_camo_LRPS_F", 1500],
+	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 7000],
+	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 7250],
+	["GM6 Lynx Sniper", "srifle_GM6_LRPS_F", 7500],
+	["GM6 Lynx Sniper (Camo)", "srifle_GM6_camo_LRPS_F", 7750],
 
-	["ASP-1 Kir Rifle [DLC]", "srifle_DMR_04_F", 2000],
-	["ASP-1 Kir Rifle (Tan) [DLC]", "srifle_DMR_04_tan_F", 2250]
+	["ASP-1 Kir Rifle [DLC]", "srifle_DMR_04_F", 7000],
+	["ASP-1 Kir Rifle (Tan) [DLC]", "srifle_DMR_04_tan_F", 7000]
 ];
 
 lmgArray = compileFinal str
