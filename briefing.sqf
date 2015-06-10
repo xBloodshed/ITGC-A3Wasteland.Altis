@@ -9,6 +9,7 @@ waitUntil {!isNull player};
 
 player createDiarySubject ["infos", "Infos and Help"];
 player createDiarySubject ["changelog", "Changelog"];
+player createDiarySubject ["features", "ITGC Server"];
 player createDiarySubject ["credits", "Credits"];
 
 player createDiaryRecord ["changelog",
@@ -389,17 +390,18 @@ player createDiaryRecord ["infos",
 [
 "Hints and Tips",
 "
-<br/><font size='18'>ITGC Wasteland</font>
+<br/><font face='PuristaBold' size='22'>ITGC Wasteland</font>
 <br/>
 <br/>
-<br/>* Loot spawns in vehicles or purchased from the Gun Store.
-<br/>* Base items can be purchased from General Store, no base loot will be spawned in server. 
-<br/>* Use ATM to save your money, in the event that you are killed, it will be safe.
-<br/>* Planes are spawned, not able for purchase. Planes cannot be saved.
-<br/>* Vehicles can be saved, use action item to Save Vehicle before log off or after moving it. 
-<br/>* Base items need to be locked for save. Spawn beacon save automatically on restart.
-<br/>* Conquest territories, $15,000 pay out. 
-<br/>* AI are set to Hard.
+<br/>- Press ~ to access player controls
+<br/>- Loot spawns in vehicles or purchased from the Gun Store.
+<br/>- Base items can be purchased from General Store, no base loot will be spawned in server. 
+<br/>- Use ATM to save your money, in the event that you are killed, it will be safe.
+<br/>- Planes are spawned, not able for purchase. Planes cannot be saved.
+<br/>- Vehicles can be saved, use action item to Save Vehicle before log off or after moving it. 
+<br/>- Base items need to be locked for save. Spawn beacon save automatically on restart.
+<br/>- Conquest territories, $15,000 pay out. 
+<br/>- AI are set to Hard.
 "
 ]];
 
@@ -431,5 +433,27 @@ player createDiaryRecord ["infos",
 <br/>
 <br/>Q. I saw someone breaking a rule, what do I do?
 <br/>A. Simply go into global chat and get the attention of one of the admins or visit our forums, and make a report if the offense is serious.
+"
+]];
+
+player createDiaryRecord ["features",
+[
+"ITGC Server Features",
+"
+<br/><font face='PuristaBold' size='22'>ITGC Wasteland</font>
+<font face='PuristaBold'>1. Airdrops</font><br/>
+In case of an emergency, you can now call in airdrops. Scroll to access the airdrops menu. Equipment in the airdrops are costlier than their store counterparts due to the added cost of air shipment.<br/>
+Once you have placed an airdrop request, wait for sometime for the dispatch to reach you. You can only call another airdrop after 5 minutes.<br/><br/>
+<font face='PuristaBold'>2. Fast rope</font><br/>
+Your troops/team members can fast rope from the heli's. Make sure to keep the heli in the proper altitude.<br/><br/>
+<font face='PuristaBold'>3. Thermals disabled</font><br/>
+Thermals for launchers and vehicles have been disabled.<br/><br/>
+<font face='PuristaBold'>4. Mag Repack</font><br/>
+You can now repack your mags. Remove ammo from a half-empty mag to put into another half-filled mag.<br/><br/>
+<font face='PuristaBold'>5. Airlift</font><br/>
+You can airlift any vehicles.<br/><br/>
+<font face='PuristaBold'>6. Paradrop</font><br/>
+You can now paradrop troops as well as vehicles you are airlifting<br/><br/>
+<font face='PuristaBold'>7. More features to be added.</font><br/>
 "
 ]];
