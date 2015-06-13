@@ -19,7 +19,7 @@ class Header
 {
 	gameType=Sandbox;
 	minPlayers=1;
-	maxPlayers=69; // 144 players, 1 headless client
+	maxPlayers=59; // 144 players, 1 headless client
 };
 
 author="ITGCommunity.com - Core by A3Wasteland.com";
