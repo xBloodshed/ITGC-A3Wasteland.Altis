@@ -722,7 +722,7 @@ tanksArray = compileFinal str
 	["M2A1 Slammer", "B_MBT_01_cannon_F", 60000, "vehicle"],
 	["M2A4 Slammer HMG", "B_MBT_01_TUSK_F", 65000, "vehicle"], // Commander gun variant
 	["T-100 Varsuk", "O_MBT_02_cannon_F", 65000, "vehicle"],  // Commander gun varient
-	["MBT-52 Kuma", "I_MBT_03_cannon_F", 65000, "vehicle"],  // Commander gun varient
+	["MBT-52 Kuma", "I_MBT_03_cannon_F", 65000, "vehicle"]  // Commander gun varient
 ];
 
 
@@ -936,7 +936,7 @@ customPlayerItems = compileFinal str
 	["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "client\icons\camonet.paa", 200, 100],
 	["Syphon Hose", "syphonhose", localize "STR_WL_ShopDescriptions_SyphonHose", "client\icons\syphonhose.paa", 200, 100]
 	//["Energy Drink", "energydrink", localize "STR_WL_ShopDescriptions_Energy_Drink", "client\icons\energydrink.paa", 100, 50],
-	["Warchest", "warchest", localize "STR_WL_ShopDescriptions_Warchest", "client\icons\warchest.paa", 1000, 500],  // war chest enabled due to the scarce amount of atms present
+	["Warchest", "warchest", localize "STR_WL_ShopDescriptions_Warchest", "client\icons\warchest.paa", 1000, 500]  // war chest enabled due to the scarce amount of atms present
 ];
 
 call compile preprocessFileLineNumbers "mapConfig\storeOwners.sqf";
