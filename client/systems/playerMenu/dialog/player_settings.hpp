@@ -199,7 +199,15 @@ class playerSettings {
 			x = 0.165; y = 0.43;
 			w = 0.125; h = 0.033 * safezoneH;
 		};		
-
+		
+		class ITGCInfoButton : w_RscButton {
+			idc = -1;
+			text = "ITGC Info";
+			onButtonClick = "[] execVM 'addons\ITGCInfo\loadITGCInfo.sqf'";
+			x = 0.228; y = 0.254;
+			w = 0.225; h = 0.033 * safezoneH;
+		};
+		
 		class btnDistanceInsane : w_RscButton {
 			text = "Insane";
 			onButtonClick = "setViewDistance 5000;";

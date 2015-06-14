@@ -8,7 +8,8 @@
 
 client_firstSpawn = true;
 
-[] execVM "client\functions\welcomeMessage.sqf";
+//[] execVM "client\functions\welcomeMessage.sqf";
+[] execVM "addons\ITGCInfo\loadITGCInfo.sqf";
 
 player addEventHandler ["Take",
 {
