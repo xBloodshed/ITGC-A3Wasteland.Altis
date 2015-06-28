@@ -838,6 +838,7 @@ colorsArray = compileFinal str
 			["AAF Green", _texDir + "aaf.jpg"], // #(argb,8,8,3)color(0.546,0.59,0.363,0.2)
 			["Carbon", _texDir + "carbon.jpg"],
 			["Rusty", _texDir + "rusty.jpg"],
+			["Desi", _texDir + "india.jpg"],
 			["'Murica", _texDir + "murica.jpg"],
 			["Confederate", _texDir + "confederate.jpg"],
 			["Union Jack", _texDir + "unionjack.jpg"],
